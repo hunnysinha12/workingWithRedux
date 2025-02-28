@@ -3,7 +3,6 @@ import { add } from "../store/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../store/productSlice";
 import { STATUSES } from "../store/productSlice";
-import { h1 } from "framer-motion/client";
 
 const Products = () => {
   const dispatch = useDispatch();
